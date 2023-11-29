@@ -1,0 +1,18 @@
+.card{
+    padding: 36px;
+    border: 2px solid #191A23;
+    border-top-left-radius: 25px; /* Raio da curva na parte superior esquerda */
+    border-top-right-radius: 25px;
+    border-bottom: 7px solid #191A23;
+    border-bottom-left-radius: 25px; /* Raio da curva na parte inferior esquerda */
+    border-bottom-right-radius: 25px;
+}
+.card-black{
+    background-color:#191A23;
+}
+.linha-vertical {
+    height: 100%;/*Altura da linha*/
+    border-right: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: white;
+}
+  

@@ -1,0 +1,16 @@
+.container2{
+    width: 1440px;
+    height: 48px;
+}
+.p{
+    width: 498px;
+    height: 112px;
+    margin: 35px 100px 35px; 
+    text-align: left; 
+}
+   
+.row{
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}

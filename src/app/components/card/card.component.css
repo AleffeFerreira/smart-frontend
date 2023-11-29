@@ -1,0 +1,18 @@
+.card{
+    padding: 36px;
+    border: 2px solid #191A23;
+    border-top-left-radius: 25px; /* Raio da curva na parte superior esquerda */
+    border-top-right-radius: 25px;
+    border-bottom: 7px solid #191A23;
+    border-bottom-left-radius: 25px; /* Raio da curva na parte inferior esquerda */
+    border-bottom-right-radius: 25px;
+}
+.card-green{
+    background-color:#B9FF66;
+}
+.card-black{
+    background-color:#191A23;
+}
+.card-white{
+    background-color:#F3F3F3;
+}
