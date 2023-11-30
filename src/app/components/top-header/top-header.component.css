@@ -10,7 +10,9 @@
 }
    
 .row{
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    width: 1440px;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
 }

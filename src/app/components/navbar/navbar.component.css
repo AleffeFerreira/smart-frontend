@@ -1,5 +1,7 @@
 .navbar-brand{
-    width: 219px;
-    width: 36px;
-    margin-left: 9%;
+    display: flex;
+    width: 1440px;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: flex-start;
 }

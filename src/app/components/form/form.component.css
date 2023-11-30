@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    width: 1240px;
+    padding: 60px 100px 80px 100px; 
+    border-radius: 45px;
+    background: var(--Grey, #F3F3F3);
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.bc-input{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+    border-color: black;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.buttom{
+    display: flex;
+    height: 556px;
+    background: var(--Dark, #191A23);
+    align-items: center;
+}

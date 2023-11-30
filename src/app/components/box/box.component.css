@@ -1,26 +1,30 @@
 .card-green{
-    padding: 36px;
-    border: 2px solid #191A23;
-    border-top-left-radius: 25px; /* Raio da curva na parte superior esquerda */
-    border-top-right-radius: 25px;
-    border-bottom: 7px solid #191A23;
-    border-bottom-left-radius: 25px; /* Raio da curva na parte inferior esquerda */
-    border-bottom-right-radius: 25px;
-}
-.card-green{
-    background-color:#B9FF66;
-}
-.card-white{
-    padding: 36px;
-    border: 2px solid #191A23;
-    border-top-left-radius: 25px; /* Raio da curva na parte superior esquerda */
-    border-top-right-radius: 25px;
-    border-bottom: 7px solid #191A23;
-    border-bottom-left-radius: 25px; /* Raio da curva na parte inferior esquerda */
-    border-bottom-right-radius: 25px;
+    display: inline-flex;
+    width: 1234px;
+    padding: 0px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    border-radius: 45px;
+    border: 1px solid #191A23;
+
+    background: var(--Green, #B9FF66);
+    box-shadow: 0px 5px 0px 0px #191A23;
 }
 .card-white{
-    background-color:#F3F3F3;
+    display: inline-flex;
+    width: 1234px;
+    padding: 0px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    border-radius: 45px;
+    border: 1px solid #191A23;
+
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
 }
 
   

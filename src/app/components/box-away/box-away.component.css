@@ -1,13 +1,33 @@
 .card-black{
-    padding: 36px;
+    display: flex;
+    padding: 50px 50px 50px;
     border: 2px solid #191A23;
     border-top-left-radius: 25px; /* Raio da curva na parte superior esquerda */
     border-top-right-radius: 25px;
     border-bottom: 7px solid #191A23;
     border-bottom-left-radius: 25px; /* Raio da curva na parte inferior esquerda */
     border-bottom-right-radius: 25px;
-   
+    
+    
+    
+background: var(--Dark, #191A23);
 }
-.card-black{
-    background-color:#191A23;
+.texto{
+    width: 502px;
+    height: 138px;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    color: #FFFFFF;
+    
 }
+.div{
+    width: 606px;
+    height: 237.952px;
+    padding: 20px 0px 0px 0px;
+    justify-content: space-between;
+    fill: #21241D;
+    stroke-width: 2px;
+    stroke: #FFF;
+    
+}
+

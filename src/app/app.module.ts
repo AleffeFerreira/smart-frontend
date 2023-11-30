@@ -20,6 +20,7 @@ import { BoxComponent } from './components/box/box.component';
 import { BoxAwayComponent } from './components/box-away/box-away.component';
 import { CardProfileComponent } from './components/card-profile/card-profile.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { FormComponent } from './components/form/form.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     BoxAwayComponent,
     CardProfileComponent,
     ProfileComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
