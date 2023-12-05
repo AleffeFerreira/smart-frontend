@@ -1,61 +1,61 @@
 <div class="container">
-    <div class="card card-green" *ngIf="color == 'green'">
-        <div class="card-body">
-          <div class="row">
-            <div class="col">
-                <div class="imageAlto">
-                    <img [src]="image_txt"/>
-                </div>
-                <br />
-                    <div class="imageAlto mt-4">
-                      <img src="../../../assets/img/Link_off_grenn.png"/>
-                    </div>
-            </div>
-            <div class="col">
-                <img [src]="image"/>
-            </div>
+  <div class="card card-green" *ngIf="color == 'green'">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <div class="imageAlto">
+            <img [src]="image_txt" />
+          </div>
+          <br />
+          <div class="imageAlto mt-4">
+            <img src="../../../assets/img/Link_off_grenn.png" />
           </div>
         </div>
-      </div>
-
-      <div class="card card-black" *ngIf="color == 'black'">
-        <div class="card-body">
-          <div class="row">
-            <div class="col">
-              <div class="imageAlto">
-                <img [src]="image_txt"/>
-            </div>
-                <br />
-                    <div class="imageAlto mt-4">
-                      <img src="../../../assets/img/Link_and_black.png"/>
-                    </div>
-            </div>
-            <div class="col">
-              <img [src]="image"/>
-          </div>
-
-          </div>
+        <div class="col">
+          <img [src]="image" />
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="card card-white" *ngIf="color == 'white'">
-        <div class="card-body">
-          <div class="row">
-            <div class="col">
-                <div class="imageAlto">
-                   <img [src]="image_txt"/>
-                </div>
-                <br />
-                    <div class="imageAlto mt-4">
-                      <img src="../../../assets/img/Link.jpg"/>
-                    </div>
-            </div>
-            <div class="col">
-              <img [src]="image"/>
+  <div class="card card-black" *ngIf="color == 'black'">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <div class="imageAlto">
+            <img [src]="image_txt" />
           </div>
-
+          <br />
+          <div class="imageAlto mt-4">
+            <img src="../../../assets/img/Link_and_black.png" />
           </div>
         </div>
+        <div class="col">
+          <img [src]="image" />
+        </div>
+
       </div>
+    </div>
+  </div>
+
+  <div class="card card-white" *ngIf="color == 'white'">
+    <div class="card-body">
+      <div class="row">
+        <div class="col">
+          <div class="imageAlto">
+            <img [src]="image_txt" />
+          </div>
+          <br />
+          <div class="imageAlto mt-4">
+            <img src="../../../assets/img/Link.jpg" />
+          </div>
+        </div>
+        <div class="col">
+          <img [src]="image" />
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </div>

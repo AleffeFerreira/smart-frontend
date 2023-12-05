@@ -1,34 +1,27 @@
-.card-white{
+.container {
     display: flex;
-width: 600px;
-padding: 50px;
-justify-content: space-between;
-align-items: center;
-border-radius: 45px;
-border: 1px solid var(--Dark, #191A23);
-background: var(--Grey, #F3F3F3);
-box-shadow: 0px 5px 0px 0px #191A23;
-background: lightgray -51.279px -73.256px / 148.837% 188.235% no-repeat;
+    padding: 0px 100px;
+    align-items: flex-start;
+    gap: 40px;
+
 }
-.card-green{
-    display: flex;
-    width: 600px;
-    padding: 50px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 45px;
-border: 1px solid var(--Dark, #191A23);
-background: var(--Green, #B9FF66);
-box-shadow: 0px 5px 0px 0px #191A23;
-}
-.card-black{
-    display: flex;
-    width: 600px;
-    padding: 50px;
-    justify-content: space-between;
-    align-items: center;
+
+.div {
+
     border-radius: 45px;
     border: 1px solid var(--Dark, #191A23);
     background: var(--Dark, #191A23);
     box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+app-card {
+    display: flex;
+    width: 600px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 93px;
 }

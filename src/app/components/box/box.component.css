@@ -1,4 +1,4 @@
-.card-green{
+.card-green {
     display: inline-flex;
     width: 1234px;
     padding: 0px 100px;
@@ -12,7 +12,8 @@
     background: var(--Green, #B9FF66);
     box-shadow: 0px 5px 0px 0px #191A23;
 }
-.card-white{
+
+.card-white {
     display: inline-flex;
     width: 1234px;
     padding: 0px 100px;
@@ -27,4 +28,12 @@
     box-shadow: 0px 5px 0px 0px #191A23;
 }
 
-  
+.h3 {
+    width: 612px;
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

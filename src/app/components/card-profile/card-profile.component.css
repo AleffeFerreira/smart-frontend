@@ -1,33 +1,37 @@
-
-.card{
+.card {
     font-family: Space Grotesk;
     font-size: 18px;
     background: #FFF;
-    
+
 }
-.card-white{
+
+.card-white {
     border-radius: 45px;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
     min-height: 50%;
 }
-.traco{
-    border-bottom: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+
+.traco {
+    border-bottom: 2px solid;
+    /* Adiciona borda esquerda na div como ser fosse uma linha.*/
     color: black;
-    
+
 }
-.h4{
+
+.h4 {
     font-family: Space Grotesk;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.description{
+
+.description {
     font-family: Space Grotesk;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-gap: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 20px;
 }
