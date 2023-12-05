@@ -1,9 +1,6 @@
 .container {
+    margin-top: 10%;
     display: flex;
-    width: 1440px;
-    padding: 0px 100px;
-    align-items: flex-start;
-    gap: 40px;
 }
 
 .h2 {
@@ -14,4 +11,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.imageAlto{
+    border-radius: 7px !important;
+    background: var(--Green, #B9FF66) !important;
 }

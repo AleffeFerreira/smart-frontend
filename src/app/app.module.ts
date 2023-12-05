@@ -21,6 +21,7 @@ import { BoxAwayComponent } from './components/box-away/box-away.component';
 import { CardProfileComponent } from './components/card-profile/card-profile.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { FormComponent } from './components/form/form.component';
+import { CardNumberComponent } from './card-number/card-number.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { FormComponent } from './components/form/form.component';
     CardProfileComponent,
     ProfileComponent,
     FormComponent,
+    CardNumberComponent,
   ],
   imports: [
     BrowserModule,

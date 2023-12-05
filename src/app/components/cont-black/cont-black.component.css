@@ -11,8 +11,18 @@
     background-color:#191A23;
 }
 .linha-vertical{
+    border-right: 1px solid white;
     color: white;
+    padding: 5%;
+}
+.linha-vertical-r{
+    border-right: 1px solid black;
+    color: white;
+    padding: 5%;
 }
 
-
-  
+.leanMore{
+    margin-top: 3%;
+    color: #B9FF66;
+    font-family: Space Grotesk;
+}

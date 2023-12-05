@@ -1,3 +1,6 @@
+*{
+    font-family: Space Grotesk;
+}
 .h1 {
     display: flex;
     width: 1240px;
@@ -19,8 +22,11 @@
     font-weight: 400;
 
 }
-
+.row-stuend{
+    margin-left: 60px !important;
+}
 .container {
+    margin-top: 5%;
     border-radius: 45px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #FFF;
 }
@@ -33,4 +39,20 @@
 
     border-radius: 14px;
     background: var(--Dark, #191A23);
+}
+
+.imageAlto{
+    margin-left: 25%;
+
+}
+.p-space{
+    margin-bottom: 26px;
+    margin-top: 26px;
+}
+
+.h1-space{
+    margin-top: 86px;
+}
+.button-space{
+    padding: 20px 35px !important;
 }

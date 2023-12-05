@@ -1,3 +1,9 @@
+*p{
+    font-family: Space Grotesk !important;
+}
+.bt-style{
+    padding: 20px 35px !important;
+}
 .container{
     width: 1440px;
     height: 515px;
@@ -54,6 +60,35 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-   
+    font-family: Space Grotesk;
     
+}
+
+item-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+.p-style{
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.title{
+    width: 531px;
+    height: 231px;
+    color: #000;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

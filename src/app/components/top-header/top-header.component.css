@@ -6,13 +6,5 @@
     width: 498px;
     height: 112px;
     margin: 35px 100px 35px; 
-    text-align: left; 
 }
    
-.row{
-    display: flex;
-    width: 1440px;
-    padding: 0px 100px;
-    justify-content: space-between;
-    align-items: flex-start;
-}
