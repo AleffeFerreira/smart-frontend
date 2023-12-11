@@ -29,3 +29,9 @@
 .button{
     font-size: 23px !important;
 }
+@media screen and (max-widht: 780px) {
+    .img{
+        display: inline-flex;
+        padding: 0px 20px 20px 20px;
+    }
+}

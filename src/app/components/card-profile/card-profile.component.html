@@ -1,25 +1,24 @@
 <div class="card card-white">
-    <div class="card-body">
-      <h4>
-      <div class="row">
-        <img [src]="userImg" class="col-6"> 
-        <br>
-        
+  <div class="card-body">
+    <div class="content-card">
+        <div class="row space-row">
+          <div class="col-4">
+  
+            <img [src]="userImg"> 
+          </div>
+              <div class="col-6">
+                <h4 class="h4-size fw-bold">{{userName}}</h4>
+                <p class="profile">{{userProfile}}</p>
+              </div>
+          </div>
+  
+        <div class="traco"></div>
+        <div class="row">
+          <div class="col te">
+            <p class="p-2">{{description}}</p>
+          </div>
         </div>
-
-        <div class="col-6">
-          <h6>{{userName}}</h6>
-          <br>
-          <p>{{userProfile}}</p>
-        </div>
-
-      <div class="traco"></div>
-      <div class="row">
-        <div class="col">
-          {{description}}
-        </div>
-      </div>
-      </h4>
     </div>
   </div>
+</div>
   

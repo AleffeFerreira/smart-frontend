@@ -15,3 +15,12 @@
     border-radius: 7px !important;
     background: var(--Green, #B9FF66) !important;
 }
+@media screen and (max-widht: 780px){
+    .h2{
+         width: -webkit-fill-available;
+    }
+    .p{
+        text-align: left;
+    }
+
+}

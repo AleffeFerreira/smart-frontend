@@ -1,9 +1,6 @@
 .container {
+    margin-top: 10%;
     display: flex;
-    width: 1440px;
-    padding: 0px 100px;
-    align-items: flex-start;
-    gap: 40px;
 }
 
 .h2 {
@@ -16,15 +13,7 @@
     line-height: normal;
 }
 
-.p {
-    width: 473px;
-    flex-shrink: 0;
-    color:  #000;
-
-
-    font-family: Space Grotesk;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.imageAlto{
+    border-radius: 1px !important;
+    background: var(--Green, #B9FF66) !important;
 }
